@@ -29,7 +29,7 @@ font-family: "Times New Roman", Times, serif;
 	
 }
 
-header{
+body{
     background-image: url("home.jpg");
     height: 100vh;
     -webkit-background-size: cover;
