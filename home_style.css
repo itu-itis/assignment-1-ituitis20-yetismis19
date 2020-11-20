@@ -1,23 +1,24 @@
 *{
 margin: 0;
-padding:0;
+
 font-family: "Times New Roman", Times, serif;
 
 }
 .outer{
-	
-	padding-left: 35%;
+	margin-top: 1%;
+	padding-right: 3%;
 }
 .banner {
 	
-		width: 40%;
-		
+		width: 35%;
+		height: 5.5rem;
+		float: right;
        
 		border: 5px ;
 		
 		border-radius: 10px;
        
-        background-color: rgb(100, 61, 28);
+        background-color: #a04b059d;
         text-align: center;
         
       
@@ -41,11 +42,12 @@ body{
 .nav-bar {
 	border: 5px ;
 	height: 23px;
-	background-color: rgb(100, 61, 28);
-	float: right;
+	background-color:#a04b059d;
+	border-radius: 10px;
+	float: left;
 	list-style: none;
-    margin-top: 15%;
-	margin-right: 35%;
+   padding-left: 0;
+	margin-left: 1%;
 	padding-top: 4px;
 }
 .nav-bar li {
@@ -61,5 +63,8 @@ body{
 }
 .nav-bar li a:hover {
 	background: #fff;
+	border-radius: 10px;
 	color: #333;
 }
+
+
