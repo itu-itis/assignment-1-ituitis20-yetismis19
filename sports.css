@@ -18,7 +18,7 @@ header .container{
 header .nav-bar {
     border: 5px ;
 	height: 23px;
-	background-color:#a04b059d;
+	background-color:#2980a371;
 	border-radius: 10px;
 	float: left;
 	list-style: none;
@@ -34,7 +34,7 @@ header .nav-bar li {
         display: inline-block;
 }
 header .nav-bar li a {
-        color:rgba(216, 216, 216, 0.911);
+        color:white;
         text-decoration: none;
         padding: 5px 20px;
         font-family: poppins;
@@ -46,6 +46,10 @@ header .nav-bar li a {
         border-radius: 8px;
         color: #333;
 }
+body{
+
+    background:rgba(112, 190, 211, 0.267);
+}
 .main-sports{
 
     padding-top: 80px;
@@ -53,6 +57,11 @@ header .nav-bar li a {
     
   
   
+}
+p {
+
+padding-bottom: 20px;
+
 }
 
 
@@ -88,17 +97,18 @@ header .nav-bar li a {
 
   .box {
     text-align: center;
-    background:#a04b059d;
-    color: rgba(216, 216, 216, 0.911);
+    background:#2980a371;
+    /* color: white; */
     width: 160px;
     height: 120px;
     border: 1px solid black;
-    
+    border-radius: 5px;
     margin: 5px;
     
 
 
   }
+  
   .s-part{
     display: flex;
    
@@ -109,8 +119,8 @@ header .nav-bar li a {
 
 .s-part .box {
     text-align: center;
-    background:#a04b059d;
-    color: rgba(216, 216, 216, 0.911);
+    background:#2980a371;
+    color:white;
     width: 30%;
     height: 400px;
     border: 1px solid black;
@@ -120,11 +130,11 @@ header .nav-bar li a {
   }
   .sea-part .box img{
 
-    padding-top: 4px; width: 80%; height: 55%;
+    padding-top: 4px; width: 5px; height: 50% ;
   }
 
   .main-sports ul li ul a:hover {
     background: rgb(10, 10, 10);
     border-radius: 7px;
-    color:rgba(216, 216, 216, 0.911);
+    color:white;
 }

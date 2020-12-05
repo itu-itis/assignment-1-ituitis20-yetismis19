@@ -3,22 +3,38 @@ margin: 0;
 
 font-family: "Times New Roman", Times, serif;
 
+
 }
+
+body{
+	
+
+	background-image: url("11.jpg");
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+
+
+} 
 .outer{
 	margin-top: 1%;
+	
 	padding-right: 3%;
 }
 .banner {
 	
 		width: 35%;
-		height: 5.5rem;
-		float: right;
+		height: 20%;
+		float: left;
+		margin-right: 20.5%;
        
 		border: 5px ;
 		
 		border-radius: 10px;
        
-        background-color: #a04b059d;
+        background-color: #2980a371;
         text-align: center;
         
       
@@ -26,28 +42,22 @@ font-family: "Times New Roman", Times, serif;
 .container{
 	
     width: auto;
-	margin: auto;
+	margin: auto ;
 	
 }
 
-body{
-    background-image: url("home.jpg");
-    height: 100vh;
-    -webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
 
-}
 .nav-bar {
 	border: 5px ;
 	height: 23px;
-	background-color:#a04b059d;
+	background-color:#2980a371;
 	border-radius: 10px;
 	float: left;
 	list-style: none;
-   padding-left: 0;
-	margin-left: 1%;
+   	padding-left: 0;
+	margin-right: 20%;
+	
+	margin-top: 3px;
 	padding-top: 4px;
 }
 .nav-bar li {
