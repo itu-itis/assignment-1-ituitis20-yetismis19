@@ -6,7 +6,7 @@
 
 
 
-header .container{
+body .container{
 	
         width: auto;
         height: auto;
@@ -15,7 +15,7 @@ header .container{
         
     }
     
-header .nav-bar {
+    body .nav-bar {
     border: 5px ;
 	height: 23px;
 	background-color:#2980a371;
@@ -30,10 +30,10 @@ header .nav-bar {
 
 }
 
-header .nav-bar li {
+body .nav-bar li {
         display: inline-block;
 }
-header .nav-bar li a {
+body .nav-bar li a {
         color:white;
         text-decoration: none;
         padding: 5px 20px;
