@@ -58,6 +58,17 @@ body h1{
     padding-top: 8%;
  }
 
+ .outer-log{
+	width: 150px;
+	height: 95px;
+	border: 10px solid;
+	border-color: rgb(5, 5, 5);
+	border-radius: 30px;
+	margin-right: 20px;
+	float: right;
+}
+
+
 
 
 table, th, td {
