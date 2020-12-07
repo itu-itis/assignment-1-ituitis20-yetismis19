@@ -1,20 +1,26 @@
 *{
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
  
   
 }
-
 .outer-log{
 	width: 150px;
 	height: 95px;
-	border: 10px solid;
-	border-color: rgb(5, 5, 5);
-	border-radius: 30px;
+	/* border: 8px solid;
+	border-color: rgba(0, 0, 0, 0.87);
+	border-radius: 30px; */
 	margin-right: 20px;
 	float: right;
+} 
+
+
+.outer-log img{
+	width: 110px; height: 90px;
+	 border: 8px #2980a371 solid;
+	 border-radius: 20px;
+
 }
-
-
 
 
 body .container{
@@ -83,4 +89,20 @@ table td:hover{
     
     color: #333;
 
+}
+
+.outer{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+    
+}
+
+.outer img{
+
+
+    border-radius: 20px;
 }
